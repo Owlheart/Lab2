@@ -1,0 +1,66 @@
+body {      
+    background-color: #EBDEF0;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+}
+
+.par1 {     
+    background-color: #e5d1f2;    
+    color: #000000;    
+    padding: 20px;        
+}
+
+#par2 {     
+    background-color: #fdd0d0;     
+    color: #000000;     
+    padding: 20px;        
+}
+
+#nure {     
+    position: fixed;        
+    width: 100px;        
+    left: -10px;        
+    bottom: 0px;       
+}
+
+#schedule {     
+    margin: 20px;       
+    margin-bottom: 0px;     
+    width: 50px;        
+    height: auto;       
+    float: inline-end;  
+}
+
+.hidden-block {     
+    width: 300px;   
+    height: 100px;      
+    position: fixed;    
+    top: 400px;            
+    left: -300px;       
+    background-color: #ffe6ac;  
+    border-radius: 0 35px 35px 0;
+    padding: 10px;      
+    transition: 0.4s;       
+    display: flex;          
+}
+
+.hidden-block::after { 
+    content: 'Contacts';         
+    position: absolute;          
+    top: 120px;     
+    left: 300px;        
+    transform-origin: 0 0;           
+    transform: rotate(-90deg);       
+    width: 120px;      
+    height: 30px;      
+    border-radius: 0 0 35px 35px;   
+    display: flex;                   
+    align-items: center;                 
+    justify-content: center;            
+    background-color: #ae00ff;       
+    color: black;        
+    font-weight: bold;           
+}
+
+.hidden-block:hover {   
+    left: 0;        
+}
